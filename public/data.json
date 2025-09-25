@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User cannot log in with valid credentials.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-20"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failure",
+    "description": "Payment is failing for Visa cards during checkout.",
+    "customer": "Sarah Smith",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2025-09-19"
+  },
+  {
+    "id": 3,
+    "title": "Email Not Received",
+    "description": "Customer did not receive order confirmation email.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-18"
+  },
+  {
+    "id": 4,
+    "title": "Slow Website",
+    "description": "Website response time is very slow during peak hours.",
+    "customer": "Emily Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-17"
+  },
+  {
+    "id": 5,
+    "title": "Profile Update Error",
+    "description": "Users are unable to update their profile picture.",
+    "customer": "Chris Evans",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-16"
+  },
+  {
+    "id": 6,
+    "title": "Password Reset Not Working",
+    "description": "Reset password link is expired immediately after receiving.",
+    "customer": "Sophia Lee",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-15"
+  },
+  {
+    "id": 7,
+    "title": "Mobile App Crash",
+    "description": "The iOS app crashes when opening the settings page.",
+    "customer": "David Wilson",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2025-09-14"
+  },
+  {
+    "id": 8,
+    "title": "Refund Delay",
+    "description": "Customer has not received refund after 10 business days.",
+    "customer": "Olivia Martinez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-13"
+  },
+  {
+    "id": 9,
+    "title": "Search Not Working",
+    "description": "Search bar returns no results even for valid queries.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-12"
+  },
+  {
+    "id": 10,
+    "title": "Order Cancellation Error",
+    "description": "Customers cannot cancel orders within 24 hours.",
+    "customer": "Isabella Taylor",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-11"
+  },
+  {
+    "id": 11,
+    "title": "Chat Support Not Loading",
+    "description": "Live chat widget fails to load on the support page.",
+    "customer": "Daniel Harris",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-10"
+  },
+  {
+    "id": 12,
+    "title": "Discount Code Not Applied",
+    "description": "Promo code is valid but not applied at checkout.",
+    "customer": "Emma Thomas",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-09"
+  },
+  {
+    "id": 13,
+    "title": "Profile Page Crash",
+    "description": "Website crashes when navigating to profile page.",
+    "customer": "Liam Scott",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-08"
+  },
+  {
+    "id": 14,
+    "title": "File Upload Error",
+    "description": "PDF files larger than 5MB cannot be uploaded.",
+    "customer": "Ava Johnson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-07"
+  },
+  {
+    "id": 15,
+    "title": "Notification Delay",
+    "description": "Push notifications are delayed by 10 minutes.",
+    "customer": "Noah Williams",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-06"
+  }
+]
