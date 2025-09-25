@@ -1,14 +1,26 @@
 import React from "react";
 import vector2 from "../assets/vector2.png";
 import { Calendar } from "lucide-react";
+import { toast } from "react-toastify";
 
-const CustomerCard = ({ element }) => {
-  console.log(element);
+const CustomerCard = ({ element, handleCardClick }) => {
+  const cardClick = () => {
+    handleCardClick(element.id);
+    toast("In-Progress");
+  };
+
   return (
-    <div className="shadow border-1 p-4 border-gray-300 rounded-md">
+    <div
+      onClick={cardClick}
+      className="shadow border-1 p-4 border-gray-300 rounded-md"
+    >
       <div className="flex justify-between items-center">
         <h2 className="text-lg font-bold text-gray-600">{element.title}</h2>
-        <div className="bg-green-200 p-3 rounded-full flex items-center gap-2">
+        <div
+          className={` ${
+            element.status === "Open" ? "bg-green-100" : "bg-yellow-100"
+          } p-3 rounded-full flex items-center gap-2`}
+        >
           <img
             src={vector2}
             className={`${
@@ -18,7 +30,7 @@ const CustomerCard = ({ element }) => {
           />
           <span
             className={`${
-              element.status === "Open" ? "text-green-700" : "text-yellow-200"
+              element.status === "Open" ? "text-green-700" : "text-yellow-700"
             }`}
           >
             {element.status}
