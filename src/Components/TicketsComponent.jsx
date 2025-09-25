@@ -1,6 +1,7 @@
 import React, { use, useState } from "react";
 import CustomerTickets from "./CustomerTickets";
 import Counters from "./Counters";
+import { toast } from "react-toastify";
 
 const TicketsComponent = ({ promiseData }) => {
   const initialData = use(promiseData);
@@ -19,6 +20,7 @@ const TicketsComponent = ({ promiseData }) => {
     const filterComplited = data.filter((ele) => ele.id !== costomer.id);
     setResolved([...resolved, findCostomer]);
     setData(filterComplited);
+    toast("Completed!");
   };
 
   return (
