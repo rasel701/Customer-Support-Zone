@@ -7,6 +7,7 @@ const CustomerTickets = ({
   handleCardClick,
   handleCompleteBtn,
   resolved,
+  removeCompleteCustomer,
 }) => {
   const showData = data.map((element) => (
     <CustomerCard
@@ -18,7 +19,7 @@ const CustomerTickets = ({
 
   return (
     <>
-      <h2 className="text-2xl mt-3 font-bold text-gray-700">
+      <h2 className="text-2xl mt-8 mb-5 font-bold text-gray-700">
         Customer Tickets
       </h2>
       <div className=" flex  flex-col lg:flex-row gap-4">
@@ -30,6 +31,7 @@ const CustomerTickets = ({
             data={data}
             resolved={resolved}
             handleCompleteBtn={handleCompleteBtn}
+            removeCompleteCustomer={removeCompleteCustomer}
           />
         </div>
       </div>

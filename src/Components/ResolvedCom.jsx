@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 
-const ResolvedCom = ({ resolved }) => {
+const ResolvedCom = ({ resolved, removeCompleteCustomer }) => {
   return (
     <div className="border-1 shadow border-gray-200 p-5 mt-9">
       <h2 className="text-[20px] font-bold text-gray-700">Resolved Task</h2>
@@ -20,7 +20,10 @@ const ResolvedCom = ({ resolved }) => {
                 <span>Completed</span>
               </div>
             </div>
-            <button className=" absolute bottom-1.5 right-3 cursor-pointer text-gray-500 ">
+            <button
+              onClick={() => removeCompleteCustomer(ele.id)}
+              className=" absolute bottom-1.5 right-3 cursor-pointer text-gray-500 "
+            >
               Click to remove
             </button>
           </div>
