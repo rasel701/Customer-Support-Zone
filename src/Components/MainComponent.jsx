@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 
 import TicketsComponent from "./TicketsComponent";
+import Loading from "./Loading";
 
 const fetchingData = async () => {
   const res = await fetch("/data.json");
@@ -12,7 +13,7 @@ const promiseData = fetchingData();
 const MainComponent = () => {
   return (
     <div>
-      <Suspense fallback={<h3>Data is comming...</h3>}>
+      <Suspense fallback={<Loading />}>
         <TicketsComponent promiseData={promiseData} />
       </Suspense>
     </div>
