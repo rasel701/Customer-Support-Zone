@@ -8,6 +8,7 @@ const CustomerTickets = ({
   handleCompleteBtn,
   resolved,
   removeCompleteCustomer,
+  inprogress,
 }) => {
   const showData = data.map((element) => (
     <CustomerCard
@@ -29,6 +30,7 @@ const CustomerTickets = ({
         <div className="p-2 min-w-[30%]">
           <TaskStatusCom
             data={data}
+            inprogress={inprogress}
             resolved={resolved}
             handleCompleteBtn={handleCompleteBtn}
             removeCompleteCustomer={removeCompleteCustomer}

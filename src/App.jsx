@@ -15,8 +15,11 @@ const App = () => {
         <MainComponent />
         <ToastContainer />
       </div>
-      <div>
+      <div className="bg-black mt-24 ">
         <Footer />
+        <h2 className="text-white text-center pb-2 pt-7 text-[17px]">
+          © 2025 CS — Ticket System. All rights reserved.
+        </h2>
       </div>
     </>
   );

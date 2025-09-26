@@ -1,12 +1,12 @@
 import React from "react";
 
-const InProgressCom = ({ filterProgress, handleCompleteBtn }) => {
+const InProgressCom = ({ filterProgress, handleCompleteBtn, inprogress }) => {
   return (
     <div className="border-1 shadow border-gray-200 p-5">
       <h2 className="text-[20px] font-bold text-gray-700">Task Status</h2>
-      {filterProgress.length > 0 ? (
+      {inprogress.length > 0 ? (
         <div>
-          {filterProgress.map((progress) => (
+          {inprogress.map((progress) => (
             <div
               key={progress.id}
               className="shadow border-2 border-gray-200 mt-3 p-4 rounded-lg"
