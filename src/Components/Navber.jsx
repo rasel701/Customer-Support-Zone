@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navber = () => {
   return (
     <navber className="flex flex-col lg:flex-row lg:justify-between justify-center items-center py-5 max-w-[90%] mx-auto">

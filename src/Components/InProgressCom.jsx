@@ -1,6 +1,6 @@
 import React from "react";
 
-const InProgressCom = ({ filterProgress, handleCompleteBtn, inprogress }) => {
+const InProgressCom = ({ handleCompleteBtn, inprogress }) => {
   return (
     <div className="border-1 shadow border-gray-200 p-5">
       <h2 className="text-[20px] font-bold text-gray-700">Task Status</h2>
