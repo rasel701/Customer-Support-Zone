@@ -26,6 +26,8 @@ const TicketsComponent = ({ promiseData }) => {
     // findCustomer.status = "In-Progress";
     // const filterCustomer = data.filter((ele) => ele.id !== id);
     // setData([...filterCustomer, findCustomer]);
+
+    if (inprogress.includes(findCustomer)) return;
     setInprogress([...inprogress, findCustomer]);
     toast("In-Progress");
   };

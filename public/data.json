@@ -13,8 +13,8 @@
     "title": "Payment Failure",
     "description": "Payment is failing for Visa cards during checkout.",
     "customer": "Sarah Smith",
-    "priority": "Critical",
-    "status": "Open",
+    "priority": "Low",
+    "status": "In-Progress",
     "createdAt": "2025-09-19"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Users are unable to update their profile picture.",
     "customer": "Chris Evans",
     "priority": "Low",
-    "status": "Open",
+    "status": "In-Progress",
     "createdAt": "2025-09-16"
   },
   {
@@ -58,8 +58,8 @@
     "title": "Mobile App Crash",
     "description": "The iOS app crashes when opening the settings page.",
     "customer": "David Wilson",
-    "priority": "Critical",
-    "status": "Open",
+    "priority": "Low",
+    "status": "In-Progress",
     "createdAt": "2025-09-14"
   },
   {
@@ -77,7 +77,7 @@
     "description": "Search bar returns no results even for valid queries.",
     "customer": "James Anderson",
     "priority": "High",
-    "status": "Open",
+    "status": "In-Progress",
     "createdAt": "2025-09-12"
   },
   {
@@ -122,7 +122,7 @@
     "description": "PDF files larger than 5MB cannot be uploaded.",
     "customer": "Ava Johnson",
     "priority": "Medium",
-    "status": "Open",
+    "status": "In-Progress",
     "createdAt": "2025-09-07"
   },
   {
